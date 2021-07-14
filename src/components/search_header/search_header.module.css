@@ -2,7 +2,11 @@
   display: flex;
   height: 4rem;
   padding: 0.8em 1em;
-  background: black;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
   color: white;
   border-radius: 10px;
 }
